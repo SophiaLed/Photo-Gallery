@@ -60,11 +60,12 @@ div {
 }
 
 .catlink {
-  display: block;
+  display: flex;
   color: black;
   font-family: 'Pompiere', cursive;
   padding: 20px;
   padding-top: 30px;
   zoom: 200%;
-  margin-left: 45%;
+  justify-content: center;
+  flex-direction: row;
 }
